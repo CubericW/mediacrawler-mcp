@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "mediacrawler": {
+      "command": "python",
+      "args": ["-m", "mediacrawler_mcp.server"],
+      "env": {
+        "PYTHONPATH": "/absolute/path/to/mediacrawler-mcp",
+        "MEDIACRAWLER_HOME": "/absolute/path/to/MediaCrawler",
+        "MEDIACRAWLER_RUNNER": "uv",
+        "MEDIACRAWLER_LOGIN_TYPE": "qrcode",
+        "MEDIACRAWLER_SAVE_OPTION": "json",
+        "MEDIACRAWLER_DEFAULT_MAX": "20",
+        "MEDIACRAWLER_MAX_HARD_LIMIT": "100",
+        "MEDIACRAWLER_DELAY_MIN": "2",
+        "MEDIACRAWLER_DELAY_MAX": "5",
+        "MEDIACRAWLER_RATE_CALLS": "10",
+        "MEDIACRAWLER_RATE_WINDOW": "600",
+        "MEDIACRAWLER_ENABLE_COMMENTS": "true",
+        "MEDIACRAWLER_ENABLE_CDP": "true"
+      }
+    }
+  }
+}

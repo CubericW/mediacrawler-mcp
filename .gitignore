@@ -1,0 +1,19 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Env / secrets
+.env
+
+# Test / tooling
+.pytest_cache/
+.venv/
+venv/
+
+# MediaCrawler output (should never live inside this wrapper)
+data/
+.DS_Store
